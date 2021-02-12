@@ -14,7 +14,10 @@
 - https://quantumcomputingreport.com/education/
 - http://michaelnielsen.org/blog/quantum-computing-for-the-determined/
 - http://vdwetering.name/
+- https://logancollinsblog.com/2021/02/10/notes-on-quantum-mechanics-2/
+- https://www.youtube.com/channel/UCYpyuTbBhQ2FvTmVLL6b3zA/videos
 
+ 
 ### Research
 
 - https://innolitics.com/
@@ -23,6 +26,8 @@
 ### Cources to do
 - https://learn.saylor.org/course/view.php?id=67
 - https://training.h2o.ai/products/course-1-introduction-to-h2o-3-pythonflow#tab-product_tab_overview
+- https://pdos.csail.mit.edu/6.824/schedule.html  (Distributed Systems) https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos
+- https://github.com/amodwani/18337
 
 
 ### Sean Law python's STIMPY package
