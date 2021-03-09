@@ -28,7 +28,8 @@
 - https://training.h2o.ai/products/course-1-introduction-to-h2o-3-pythonflow#tab-product_tab_overview
 - https://pdos.csail.mit.edu/6.824/schedule.html  (Distributed Systems) https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos
 - https://github.com/amodwani/18337
-
+- https://www.youtube.com/channel/UC1DcxXg6GkAcp2zk2w7U6qQ/videos
+- https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/videos
 
 ### Sean Law python's STIMPY package
 - http://seanlaw.github.io/blog.html
@@ -40,4 +41,6 @@
 - https://github.com/Developer-Y/cs-video-courses    #CS cources links github
 - https://github.com/gto76/python-cheatsheet         #Python cheatsheet
 - https://github.com/RPISEC/MBE                      #Modern Binary Exploitation - CSCI 4968
+
+
 
