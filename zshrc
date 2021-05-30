@@ -123,9 +123,7 @@ eval $(thefuck --alias)
 export PATH=$PATH:/usr/local/opt/arangodb/sbin
 
 #export FZF_DEFAULT_OPTS='—height=40% —preview=“cat {}” —preview-window=right:60%:wrap'
-export UBER_HOME=~/uber
-export UBER_OWNER=awani2@ext.uber.com
-export UBER_LDAP_UID=awani2
+
 fortune | cowsay
 export PATH="/usr/local/opt/libxml2/bin:/Applications/Julia-1.3.app/Contents/Resources/julia/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/libxml2/lib"
