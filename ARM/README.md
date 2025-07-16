@@ -60,3 +60,5 @@ Note that implementation of the same architecture can be diiferent:
 
 ## Arm v6-M cortex processors
 ![Cortex M0 processor](ARM_Cortex_M0_processor.png)
+![Cortex M0 Plus processor](ARM_Cortex_M0+_processor.png)
+
