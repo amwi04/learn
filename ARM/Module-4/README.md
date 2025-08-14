@@ -184,3 +184,34 @@ SYSTEM
 </table>
 
 ![SCB_register_overview.png](SCB_register_overview.png)
+
+## Memory model
+
+### Device memory
+
+- 4 variant of device are avaliable
+  - Device-nGnRnE - most restrictive
+  - Device-nGnRE
+  - Device-nGRE
+  - Device-GRE    - least restrictive
+- Gathering(G/nG)
+  - Determines wheather multiple access can be merged into a single bus transaction
+  - nG: number/size of accesses on the bus = Number/size of accesses in code
+- Re-ordering(R/nR)
+  - Determine whether accesses to same device can be re-orderd
+  - nR: accesses to teh same IMPLEMENTATION DEFINED block size will appear on the bus in program order.
+- Early Write Acknowledgement (E/nE)
+  - indicates to the memory system whether a buffer can send acknowledgement
+  - nE: The responses should come from the end slaves not buffering in interconnect
+
+![address_map_overview](address_map_overview.png)
+![endianness](endianness.png)
+
+### Barrier
+- Data Memory Barrier (DMB)
+  - checks if next instruction dependicy on DMB if yes it will wait or else next instruction can be executed
+- Data Synchronization Barrier (DSB)
+  - It completly blocks execution untill all above instruction are completed. 
+- Instruction Synchronization Barrier (ISB)
+  -  ISB should be executed as it is necessary to flush the pipeline and any instruction prefetch buffers before continuing execution after updating the CONTROL register.
+- 
